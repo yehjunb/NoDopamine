@@ -1,0 +1,15 @@
+// ─────────────────────────────────────────────────────────────
+//  NoDopamine 설정 파일
+//  ✏️ 처음 한 번만 아래 두 줄을 내 정보로 바꿔주세요.
+// ─────────────────────────────────────────────────────────────
+
+// 1) Apple 개발자 팀 ID (10자리, 예: AB12CD34EF)
+//    https://developer.apple.com/account → '멤버십 세부 사항'에서 확인할 수 있어요.
+//    비워두고 Xcode 의 Signing & Capabilities 화면에서 팀을 골라도 돼요.
+DEVELOPMENT_TEAM =
+
+// 2) 앱 ID 앞부분. 전 세계에서 겹치지 않아야 해요. 보통 com.내이름 형태로 써요.
+BUNDLE_ID_PREFIX = com.yehjunb
+
+// ── 아래는 건드리지 않아도 돼요 ──
+APP_GROUP_ID = group.$(BUNDLE_ID_PREFIX).nodopamine
