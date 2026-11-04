@@ -135,6 +135,8 @@ final class BlockModel: ObservableObject {
             errorMessage = nil
         } catch {
             errorMessage = "예약을 등록하지 못했어요. 시작과 끝 시간이 15분 이상 차이 나야 해요."
+            // 등록이 안 됐는데 스위치만 켜져 있으면 헷갈리니까 꺼둬요.
+            schedule.isEnabled = false
             return
         }
 
