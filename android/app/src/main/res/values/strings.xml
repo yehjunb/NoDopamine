@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NoDopamine</string>
+    <string name="accessibility_label">NoDopamine 앱 차단</string>
+    <string name="accessibility_description">차단 목록에 있는 앱이나 사이트가 열렸는지 확인하고, 그 위에 차단 화면을 띄우기 위해 사용해요. 확인하는 건 열린 앱의 이름과 브라우저 주소창뿐이며, 화면 내용을 저장하거나 외부로 보내지 않아요.</string>
+</resources>

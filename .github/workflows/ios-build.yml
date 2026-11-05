@@ -9,7 +9,13 @@ name: iOS Build
 
 on:
   push:
+    paths-ignore:
+      - 'android/**'
+      - '.github/workflows/android-build.yml'
   pull_request:
+    paths-ignore:
+      - 'android/**'
+      - '.github/workflows/android-build.yml'
   workflow_dispatch:
 
 jobs:

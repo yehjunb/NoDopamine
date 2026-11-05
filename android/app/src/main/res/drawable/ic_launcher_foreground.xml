@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- iOS 아이콘과 같은 초록 잎사귀 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#6BC28F"
+        android:pathData="M36,72 C33,51 47,36 72,36 C75,57 61,72 36,72 Z" />
+    <path
+        android:strokeColor="#121614"
+        android:strokeWidth="2.6"
+        android:strokeLineCap="round"
+        android:pathData="M39,69 L69,39" />
+</vector>
