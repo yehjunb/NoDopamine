@@ -12,10 +12,12 @@ on:
     paths-ignore:
       - 'android/**'
       - '.github/workflows/android-build.yml'
+      - '**.md'
   pull_request:
     paths-ignore:
       - 'android/**'
       - '.github/workflows/android-build.yml'
+      - '**.md'
   workflow_dispatch:
 
 jobs:

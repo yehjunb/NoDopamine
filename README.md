@@ -1,6 +1,21 @@
 # NoDopamine 🍃
 
-폰의 "도파민"을 줄여주는 iOS 앱이에요.
+폰의 "도파민"을 줄여주는 앱이에요. **iOS** 와 **Android** 버전이 있어요.
+
+| | iOS | Android |
+|---|---|---|
+| 코드 위치 | 이 폴더 (`NoDopamine/`, `Shared/` 등) | [`android/`](android/README.md) |
+| 언어 | Swift + SwiftUI | Kotlin + Jetpack Compose |
+| 차단 방식 | Apple 스크린 타임 API | 안드로이드 접근성 서비스 |
+| 테스트에 필요한 것 | Mac + iPhone + 유료 개발자 계정 | **안드로이드 폰만** (APK 설치) |
+| 설치 안내 | 아래 계속 | [android/README.md](android/README.md) |
+
+GitHub 에 코드를 올리면 **Actions** 탭에서 두 앱이 자동으로 빌드돼요.
+Android 는 테스트까지 돌리고, 바로 설치할 수 있는 APK 파일을 만들어 줘요.
+
+---
+
+## iOS 버전
 자극적인 앱과 사이트를 잠그고, 집중한 시간을 기록하고, 폰 화면 자체를 덜 자극적으로 바꾸도록 도와줘요.
 
 ## 기능
